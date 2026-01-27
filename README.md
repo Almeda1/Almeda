@@ -18,6 +18,13 @@ A production-ready React template with Vite, TypeScript, testing, and modern dev
 
 ## Getting Started
 
+### Clone This Template
+
+```bash
+git clone https://github.com/BISHOP-X/MY-FRONTEND-TEMPLATE.git my-project
+cd my-project
+```
+
 ### Install Dependencies
 
 ```bash
@@ -183,18 +190,20 @@ npm run format
 
 ## Using This Template
 
-### Option 1: Clone and Modify
+### Method 1: Clone Directly
 ```bash
-git clone <your-repo-url> my-project
-cd my-project
+git clone https://github.com/BISHOP-X/MY-FRONTEND-TEMPLATE.git my-new-project
+cd my-new-project
+rm -rf .git              # Remove template git history
+git init                 # Start fresh git repo
 npm install
 npm run dev
 ```
 
-### Option 2: Use as GitHub Template
-1. Click "Use this template" on GitHub
-2. Create your repository
-3. Clone and start building
+### Method 2: Use as GitHub Template
+1. Click "Use this template" button on the GitHub repository
+2. Create your new repository
+3. Clone your new repo and start coding
 
 ### Customize for Your Project
 1. Update `package.json` name and version
