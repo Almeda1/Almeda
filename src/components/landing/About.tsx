@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { 
-  Users, // Keeping for potential use, though swapped out in stats below
   Award, 
   Clock, 
   TrendingUp, 
