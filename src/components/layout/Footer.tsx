@@ -1,4 +1,4 @@
-import { Code2, Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +12,12 @@ export default function Footer() {
           {/* 1. Brand & Description */}
           <div className="lg:col-span-2">
             <a href="#hero" className="flex items-center gap-2 text-xl font-bold tracking-tight text-white hover:text-blue-400 transition mb-4">
-              <Code2 className="h-6 w-6 text-blue-500" />
+              {/* UPDATED: Replaced Code2 icon with logo image */}
+              <img 
+                src="/logo.png" 
+                alt="Almeda Logo" 
+                className="h-8 w-8 object-contain" 
+              />
               <span>Almeda<span className="text-blue-500">.</span></span>
             </a>
             <p className="text-sm leading-6 text-gray-400 max-w-sm">
