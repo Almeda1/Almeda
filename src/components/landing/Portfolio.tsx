@@ -54,19 +54,7 @@ const projects: Project[] = [
     link: "https://drive-point.vercel.app",
     // repoLink: "https://github.com/Almeda1/drive-point" 
   },
-  {
-    title: "HABITVAULT",
-    shortDescription: "A habit-tracking and productivity system focused on consistency, streaks, and long-term personal growth.",
-    fullDescription: "HabitVault is a habit-tracking and productivity system built for users who want structure without friction. It allows users to build positive habits like reading, exercising, or studying by tracking daily progress. The application features data visualization for completion rates and streaks to keep users motivated on their journey to self-improvement.",
-    tags: ["React.js", "Tailwind CSS", "Firebase"],
-    fullTags: ["React.js", "Tailwind CSS", "Firebase", "NoSQL"],
-    image: habitVaultImage, 
-    logo: habitVaultLogo,
-    status: "Deployed",
-    link: "https://habitvault-self.vercel.app",
-    // repoLink: "https://github.com/yourusername/habit-vault" 
-  },
-  {
+   {
     title: "NAIRATRACK",
     shortDescription: "A personal finance tracker tailored for Nigerian users to monitor expenses, manage income, and gain financial clarity in Naira.",
     fullDescription: "NairaTrack is a smart personal finance tracker tailored for Nigerian users. It helps individuals monitor their daily expenses, manage income sources, and gain financial clarity—all denominated in Naira. The dashboard provides intuitive insights to help users budget like a pro and achieve financial freedom.",
@@ -78,7 +66,7 @@ const projects: Project[] = [
     link: "https://naira-track.vercel.app", 
     // repoLink: "https://github.com/yourusername/naira-track"
   },
-  {
+   {
     title: "CROWNLITH LOGISTICS",
     shortDescription: "A logistics company website focused on service clarity, credibility, and lead generation for transport and delivery solutions.",
     fullDescription: "Crownlith Logistics is a professional corporate website designed to establish credibility and service clarity. It showcases global shipping solutions, transport services, and delivery logistics. The site is optimized for lead generation, helping customers easily understand service offerings and get in touch for their logistical needs.",
@@ -89,6 +77,18 @@ const projects: Project[] = [
     status: "Deployed",
     link: "https://crownlithlogistics.vercel.app/", 
     // repoLink: "https://github.com/yourusername/crownlith"
+  },
+  {
+    title: "HABITVAULT",
+    shortDescription: "A habit-tracking and productivity system focused on consistency, streaks, and long-term personal growth.",
+    fullDescription: "HabitVault is a habit-tracking and productivity system built for users who want structure without friction. It allows users to build positive habits like reading, exercising, or studying by tracking daily progress. The application features data visualization for completion rates and streaks to keep users motivated on their journey to self-improvement.",
+    tags: ["React.js", "Tailwind CSS", "Firebase"],
+    fullTags: ["React.js", "Tailwind CSS", "Firebase", "NoSQL"],
+    image: habitVaultImage, 
+    logo: habitVaultLogo,
+    status: "Deployed",
+    link: "https://habitvault-self.vercel.app",
+    // repoLink: "https://github.com/yourusername/habit-vault" 
   },
   {
     title: "CHOPS & HAMPERS",
